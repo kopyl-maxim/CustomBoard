@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Grid from '@mui/material/Grid';
 import PostBlog from "./components/Post";
 import Box from "@mui/material/Box";
-import {IconButton} from "@mui/material";
+import IconButton from "@mui/material/IconButton";
 import {CloseIcon, EditIcon} from "../../themes/icons";
 import EditUserForm from "./components/Form/EditPostForm";
 import AddUserForm from "./components/Form/AddPostForm";
