@@ -15,7 +15,7 @@ type Props = {
 
 const AddUserForm: React.FC<Props> = (props) => {
     const classes = useStyles();
-    const initialFormState = {id: '', title: '', body: ''}
+    const initialFormState = { id: '', title: '', body: '' }
     const {register, handleSubmit, formState: {errors}} = useForm();
     const [post, setPost] = useState(initialFormState)
 
@@ -45,7 +45,10 @@ const AddUserForm: React.FC<Props> = (props) => {
                 },
             }}
         >
-            <form onSubmit={handleSubmit(onSubmit)} className={classes.form}>
+            <form
+                onSubmit={handleSubmit(onSubmit)}
+                className={classes.form}
+            >
                 <Box display="flex" flexDirection="column">
                     <Box display="flex" flexDirection="column">
                         <Typography mb={4} className={classes.editText}>Add post</Typography>

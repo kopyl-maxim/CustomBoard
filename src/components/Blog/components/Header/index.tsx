@@ -20,12 +20,7 @@ const Header: React.FC<Props> = (props) => {
                 <Typography variant="h4" color="inherit" sx={{flexGrow: 1}}>
                     Blog
                 </Typography>
-                <Button
-                    onClick={handleOpen}
-                    variant="outlined"
-                    sx={{borderRadius: '1rem', border: '2px solid'}}
-                    color="inherit"
-                >
+                <Button onClick={handleOpen} variant="outlined" sx={{borderRadius: '1rem', border: '2px solid'}} color="inherit">
                     Add post
                 </Button>
             </Toolbar>
