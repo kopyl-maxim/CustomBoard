@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Box from "@mui/material/Box";
 import Slider from "./components/Slider";
 
-const PageBlog = () => {
+const PageBlog: React.FC = () => {
 
     return (
         <Box bgcolor={"gray"}>
