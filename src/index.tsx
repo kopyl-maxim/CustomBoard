@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PageBlog from './components/Blog';
+import PageBlog from './components/Landing';
 
 ReactDOM.render(
   <React.StrictMode>

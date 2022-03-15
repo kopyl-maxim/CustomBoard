@@ -13,6 +13,7 @@ export const CloseIcon: FC<IconType> = ({ color = 'grey' }) => (
     </svg>
 );
 
+
 export const CheckIcon: FC<IconType> = ({ color = 'grey' }) => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path
