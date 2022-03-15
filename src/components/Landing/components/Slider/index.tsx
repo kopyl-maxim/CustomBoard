@@ -7,6 +7,7 @@ import SwiperCore, {Navigation, Pagination, Controller, Thumbs} from "swiper";
 import "swiper/swiper-bundle.css";
 import {Swiper, SwiperSlide} from "swiper/react/swiper-react";
 import useStyles from "./styles";
+import Header from "../Header";
 
 SwiperCore.use([Navigation, Pagination, Controller, Thumbs]);
 
@@ -46,7 +47,7 @@ const Slider: React.FC = () => {
                         <img
                             src={photo.url}
                             alt={photo.alternativeText}
-                            style={{width: "100%", height: "100vh"}}
+                            style={{width: "100%"}}
                         />
                     </SwiperSlide>
                 ))}

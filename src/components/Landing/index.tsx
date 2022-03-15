@@ -1,16 +1,16 @@
 import React from 'react';
-import Header from "./components/Header";
 import Box from "@mui/material/Box";
 import Slider from "./components/Slider";
+import Header from "./components/Header";
+import useStyles from "./styles"
 
 const PageBlog: React.FC = () => {
+    const classes = useStyles();
 
     return (
-        <Box bgcolor={"gray"}>
+        <Box className={classes.landingContainer}>
             <Header/>
-            <Box display="flex" justifyContent="center">
-                <Slider/>
-            </Box>
+            <Slider/>
         </Box>
     )
 }
