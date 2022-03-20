@@ -1,6 +1,4 @@
 import React from "react";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import Logo from "../../../../icon/logo.png"
 import useStyles from "./styles"
 import Box from "@mui/material/Box";
@@ -8,6 +6,7 @@ import Button from "@mui/material/Button";
 
 
 const Header: React.FC = () => {
+
     const classes = useStyles();
 
     return (

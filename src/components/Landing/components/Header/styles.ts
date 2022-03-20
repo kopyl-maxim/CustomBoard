@@ -1,4 +1,4 @@
-import {makeStyles} from '@mui/styles';
+import makeStyles from '@mui/styles/makeStyles';
 
 export default makeStyles({
     headerContainer: {
@@ -10,6 +10,7 @@ export default makeStyles({
     },
 
     menuContainer: {
+        margin: "0 30px",
         display: "flex",
         justifyContent: "start",
         alignItems: "center",
